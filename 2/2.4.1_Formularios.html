@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>2.4.1 Formularios</title>
+</head>
+
+<body>
+    <form action="mailto:ivan.kartashov1650@gmail.com" method="post">
+        <fieldset>
+            <legend>Personaje</legend>
+            <br>
+            <label>Superhéroe favorito</label>
+            <br>
+            <input list="superherolist" name="Lista_heroes" placeholder="Elige tu héroe favorito">
+            <datalist id="superherolist">
+                <option label="The Hulk" value="The Hulk"></option>
+                <option label="Superman" value="Superman"></option>
+                <option label="Ironman" value="Ironman"></option>
+                <option label="Wonder Woman" value="Wonder Woman"></option>
+            </datalist>
+            <br>
+            <label>Color</label>
+            <br>
+            <input type="color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <br>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            <label>Teléfono</label>
+            <br>
+            <input type="number"> Formato: 9999999
+        </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

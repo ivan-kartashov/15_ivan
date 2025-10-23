@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario básico Radio y checks</title>
+</head>
+
+<body>
+    <form action="mailto:ivan.kartashov1650@gmail.com" method="post">
+        <fieldset>
+            <legend>Personaje</legend>
+            <br>
+            <label>Superhéroe favorito</label>
+            <br>
+            <select name="superhero">
+                <option value=""></option>
+                <option value="Iron Man">Iron Man</option>
+                <option value="The Hulk">The Hulk</option>
+                <option value="Superman">Superman</option>
+            </select>
+            <br>
+            <label>Color</label>
+            <br>
+            <input type="color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <br>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            <label>Teléfono</label>
+            <br>
+            <input type="number"> Formato: 9999999
+        </fieldset>
+        <fieldset>
+            <legend>Frutas (Datalist)</legend>
+            <br>
+            <label>Frutas</label>
+            <br>
+            <input list="frutas_lista" name="frutas" placeholder="elige tu fruta favorita" />
+            <datalist id="frutas_lista">
+                <option label="Banana" value="Banana"></option>
+                <option label="Naranja" value="Naranja"></option>
+                <option label="Fresa" value="Fresa"></option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Fruta (Select)</legend>
+            <select name="fruta" id="fruta">
+                <optgroup label="África">
+                    <option value="Platano">Platano</option>
+                    <option value="Platano2">Platano 2</option>
+                </optgroup>
+                <optgroup label="America">
+                    <option value="Tomate">Tomate</option>
+                    <option value="Patata">Patata</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
