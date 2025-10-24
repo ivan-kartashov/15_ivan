@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Formularios Avanzado</title>
     <style>
         label {
             display: block;
@@ -42,12 +43,12 @@
         <fieldset>
             <legend>Personaje</legend>
             <label>Superhéroe favorito</label>
-            <input list="superherolist" name="Lista_heroes" placeholder="Elige tu héroe favorito">
+            <input list="superherolist" name="Heroe_favorito" placeholder="Elige tu héroe favorito">
             <datalist id="superherolist">
-                <option label="The Hulk" value="The Hulk"></option>
+                <option label="The Hulk" value="The_Hulk"></option>
                 <option label="Superman" value="Superman"></option>
                 <option label="Ironman" value="Ironman"></option>
-                <option label="Wonder Woman" value="Wonder Woman"></option>
+                <option label="Wonder Woman" value="Wonder_Woman"></option>
             </datalist>
             <label>Color</label>
             <input type="color" value="favcolor">
@@ -65,9 +66,9 @@
         </fieldset>
         <fieldset>
             <legend>Selecciona forma de contacto preferida</legend>
-            <input type="radio" value="email"> Email
-            <input type="radio" value="telefon"> Teléfono
-            <input type="radio" value="carta"> Carta
+            <input type="radio" value="contacto" name="email"> Email
+            <input type="radio" value="contacto" name="telefono"> Teléfono
+            <input type="radio" value="contacto" name="carta"> Carta
         </fieldset>
         <fieldset>
             <legend>Elige tus asignaturas favoritas</legend>
