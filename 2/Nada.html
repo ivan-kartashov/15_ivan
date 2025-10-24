@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>2.4.2 Formularios Avanzados</title>
+    <style>
+        .namecamp {
+            
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:ivan.kartashov1650@gmail.com" method="post">
+        <fieldset>
+            <legend>Personaje</legend>
+            <br>
+            <label>Superhéroe favorito</label>
+            <br>
+            <input list="superherolist" name="Lista_heroes" placeholder="Elige tu héroe favorito">
+            <datalist id="superherolist">
+                <option label="The Hulk" value="The Hulk"></option>
+                <option label="Superman" value="Superman"></option>
+                <option label="Ironman" value="Ironman"></option>
+                <option label="Wonder Woman" value="Wonder Woman"></option>
+            </datalist>
+            <br>
+            <label>Color</label>
+            <br>
+            <input type="color" value="favcolor">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <br>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="namecamp" placeholder="Nombre Apellido">
+            <br>
+            <br>
+            <label>Teléfono</label>
+            <br>
+            <input type="number" value="telefonnum"> Formato: 9999999
+            <br>
+            <br>
+            <label>Fecha</label>
+            <br>
+            <input type="date" value="fecha">
+            <br>
+            <br>
+            <label>Contraseña</label>
+            <br>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona forma de contacto preferida</legend>
+            <input type="radio" value="email"> Email
+            <input type="radio" value="telefon"> Teléfono
+            <input type="radio" value="carta"> Carta
+        </fieldset>
+        <fieldset>
+            <legend>Formularios no usados en clase</legend>
+            <input type="datetime-local" name="timedatelocal" value="datetimelocal">
+            <br>
+            <br>
+            <input type="time" name="hora" value="tiempo">
+            <br>
+            <br>
+            <label>Busqueda</label>
+            <br>
+            <input type="search" name="busqueda">
+            <br>
+            <br>
+            <label>Este formulario es bueno?</label>
+            <br>
+            <input type="range" name="rango" min="1" max="10">
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type=radio]+label,
+        input[type=checkbox]+label {
+            display: inline;
+        }
+
+        input[type=submit],
+        button[type=submit],
+        button[type=reset] {
+            display: inline;
+            margin-right: 10px;
+            margin-top: 15px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        input[type=submit], button[type=submit] {
+            background-color: rgb(79, 60, 96);
+        }
+
+        button[type=reset] {
+            background-color: rgb(196, 76, 20);
+        }
+
+        *:required {
+            border-color: gold;
+        }
+
+    </style>
+</head>
+
+<body>
+        <form action="mailto:ivan.kartashov1650@gmail.com" method="post">
+        <fieldset>
+            <legend>Personaje</legend>
+            <label>Superhéroe favorito</label>
+            <input list="superherolist" name="Lista_heroes" placeholder="Elige tu héroe favorito">
+            <datalist id="superherolist">
+                <option label="The Hulk" value="The Hulk"></option>
+                <option label="Superman" value="Superman"></option>
+                <option label="Ironman" value="Ironman"></option>
+                <option label="Wonder Woman" value="Wonder Woman"></option>
+            </datalist>
+            <label>Color</label>
+            <input type="color" value="favcolor">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label>Nombre</label>
+            <input type="text" name="nombre" required placeholder="Nombre Apellido">
+            <label>Teléfono</label>
+            <input type="number" value="telefonnum"> Formato: 9999999
+            <label>Fecha</label>
+            <input type="date" value="fecha">
+            <label>Contraseña</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona forma de contacto preferida</legend>
+            <input type="radio" value="email"> Email
+            <input type="radio" value="telefon"> Teléfono
+            <input type="radio" value="carta"> Carta
+        </fieldset>
+        <fieldset>
+            <legend>Elige tus asignaturas favoritas</legend>
+            <div>
+            <input type="checkbox" name="asignaturas_favoritas" value="english"> Inglés
+            </div>
+            <div>
+            <input type="checkbox" name="asignaturas_favoritas" value="sistemasoperativos"> Sistemas Operativos en red
+            </div>
+            <div>
+            <input type="checkbox" name="asignaturas_favoritas" value="apweb"> Aplicaicones Web
+            </div>
+            <div>
+            <input type="checkbox" name="asignaturas_favoritas" value="itiemple"> IPE
+            </div>
+            <div>
+            <input type="checkbox" name="asignaturas_favoritas" value="python"> Python
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Formularios no usados en clase</legend>
+            <input type="datetime-local" name="timedatelocal" value="datetimelocal">
+            <label>Hora favorita</label>
+            <input type="time" name="hora_favorita">
+            <label>Busqueda</label>
+            <input type="search" name="busqueda">
+            <label>Este formulario es bueno?</label>
+            <input type="range" name="legustaelformulario" min="1" max="10">
+            <label>Pulsa la imágen y el formulario será enviado</label>
+            <input type="image" src="../Assets/Formulario_imagen.jpg" height="100">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <button type="reset"> Resetear </button>
+    </form>
+</body>
+
+</html>
