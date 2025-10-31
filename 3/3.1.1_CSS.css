@@ -1,0 +1,43 @@
+        h1 {
+            color: darkturquoise;
+        }
+
+        h2{
+            color: purple;
+        }
+
+        #bluewordy {
+            color: blue;
+        }
+
+        #negrtres {
+            font-weight: 100;
+            display: inline-block;
+        }
+
+        .ejemplo {
+            font-style: italic;
+            font-weight: 550;
+        }
+
+        .line {
+            font-weight: bolder;
+        }
+
+        #parr1 {
+            color: grey;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+
+        #parr2 {
+            color: green;
+        }
+
+        #parr3 {
+            color: red;
+        }
+
+        #threeforms {
+            font-weight: bolder;
+        }
