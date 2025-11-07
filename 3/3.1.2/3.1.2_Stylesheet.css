@@ -15,7 +15,7 @@ caption {
     font-size: 20px;
     border-radius: 5px;
     padding: 15px;
-    
+
 }
 
 .tiempo {
@@ -40,7 +40,7 @@ td {
     padding: 10px 10px;
     border: 2px outset;
 }
- 
+
 tbody tr:first-child .tiempo {
     padding: 50px;
 }
@@ -89,4 +89,39 @@ tbody tr:first-child .tiempo {
 td:hover {
     background-color: yellow;
     font-size: 18px;
+}
+
+
+th:hover {
+    background-color: yellow;
+    font-size: 18px;
+}
+
+caption:hover {
+    background-color: yellow;
+    font-size: 18px;
+    color: black;
+}
+
+.tiempo:hover {
+    background-color: yellow;
+    font-size: 18px;
+    color: black;
+}
+
+.digit:hover {
+    background-color: yellow;
+    font-size: 18px;
+    color: black;
+}
+
+.apweb .hover-tooltip {
+    visibility: hidden;
+    position: absolute;
+}
+
+.apweb:hover .hover-tooltip {
+    visibility: visible;
+    display: block;
+    margin-left: 30px;
 }
