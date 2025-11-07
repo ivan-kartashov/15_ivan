@@ -1,4 +1,4 @@
-#nada {
+thead>tr:first-child>th:first-child {
     background-color: white;
 }
 
@@ -95,6 +95,43 @@ td:hover {
     font-size: 18px;
 }
 
+.ing:hover {
+    background-color: rgb(66, 66, 10);
+    font-size: 18px;
+    color: white;
+}
+
+.sor:hover {
+    background-color: rgb(43, 119, 72);
+    font-size: 18px;
+    color: white;
+}
+
+.sost:hover {
+    background-color: rgb(0, 255, 64);
+    font-size: 18px;
+}
+
+.servred:hover {
+    background-color: rgb(0, 225, 255);
+    font-size: 18px;
+}
+
+.python:hover {
+    background-color: rgb(255, 0, 191);
+    font-size: 18px;
+}
+
+.itemple:hover {
+    background-color: rgb(15, 66, 0);
+    font-size: 18px;
+    color: white;
+}
+
+.seguridad:hover {
+    background-color: rgb(89, 175, 255);
+    font-size: 18px;
+}
 
 th:hover {
     background-color: yellow;
@@ -114,7 +151,7 @@ caption:hover {
 }
 
 .digit:hover {
-    background-color: yellow;
+    background-color: #424079;
     font-size: 18px;
     color: black;
 }
@@ -131,6 +168,12 @@ caption:hover {
     background-color: hotpink;
 }
 
+.apweb:hover {
+    background-color: rgb(255, 145, 0);
+    font-size: 18px;
+}
+
 .recreo:hover {
     background-color: green;
 }
+
