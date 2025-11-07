@@ -158,13 +158,11 @@ caption:hover {
 
 .apweb span {
     visibility: hidden;
-    position: absolute;
 }
 
 .apweb:hover span {
     visibility: visible;
     display: block;
-    margin-left: 30px;
     background-color: hotpink;
 }
 
