@@ -53,43 +53,6 @@ tbody tr:first-child .tiempo {
     background-color: aquamarine;
 }
 
-.sor {
-    background-color: lightsalmon;
-}
-
-.servred {
-    background-color: lightcoral;
-}
-
-.itemple {
-    background-color: bisque;
-}
-
-.apweb {
-    background-color: aqua;
-}
-
-.ing {
-    background-color: goldenrod;
-}
-
-.python {
-    background-color: violet;
-}
-
-.seguridad {
-    background-color: gainsboro;
-}
-
-.sost {
-    background-color: grey;
-}
-
-.digit {
-    background-color: indigo;
-    color: white;
-}
-
 td:hover {
     background-color: yellow;
     font-size: 18px;
