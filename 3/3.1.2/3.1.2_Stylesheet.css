@@ -121,6 +121,7 @@ caption:hover {
 
 .apweb span {
     visibility: hidden;
+    display: none;
 }
 
 .apweb:hover span {
