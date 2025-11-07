@@ -115,13 +115,18 @@ caption:hover {
     color: black;
 }
 
-.apweb .hover-tooltip {
+.apweb span {
     visibility: hidden;
     position: absolute;
 }
 
-.apweb:hover .hover-tooltip {
+.apweb:hover span {
     visibility: visible;
     display: block;
     margin-left: 30px;
+    background-color: hotpink;
+}
+
+.recreo:hover {
+    background-color: green;
 }
