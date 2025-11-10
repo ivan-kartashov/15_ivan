@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Tutorial</title>
+    </head>
+    <style>
+        .menu-caja {
+            background-color: rgb(224, 84, 84);
+            padding: 10px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .menu-caja div {
+            background-color: beige;
+            border: 1px solid brown;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+
+        }
+
+        #menu-1 ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            background-color: rgb(42, 214, 42);
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        #menu-1 ul li{
+            background-color: grey;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #menu-1 ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #menu-1 ul li a:visited {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="menu-caja">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+        </div>
+        <nav id="menu-1">
+            <ul>
+                <li><a href="">Página 1</a></li>
+                <li><a href="">Página 2</a></li>
+                <li><a href="">Página 3</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
