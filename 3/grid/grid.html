@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Ejemplo</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 25% 60% 25%;
+            grid-template-columns: 50% 25% 25%;
+            grid-template-areas: 
+             "header header header" /*Fila 1*/
+             "main main aside" /*Fila 2*/
+             "footer footer footer" /*Fila 3*/
+            ;
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: aqua;
+        }
+
+        main {
+            grid-area: main;
+            background-color: brown;
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: olivedrab;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>HEADER</h1>
+        </header>
+        <main>
+            <h1>MAIN</h1>
+        </main>
+        <aside>
+            <h1>ASIDE</h1>
+        </aside>
+        <footer>
+            <h1>FOOTER</h1>
+        </footer>
+    </div>
+
+</body>
+
+</html>
