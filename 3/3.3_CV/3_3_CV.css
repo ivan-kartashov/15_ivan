@@ -141,7 +141,7 @@ ul.job-description li:before {
 
 footer {
     padding: 1em 1.5em;
-    background: #A7B8BF;
+    background: #2d7391;
     color: white;
     text-align: right;
 }
@@ -205,4 +205,8 @@ a .fab {
 body section {
     padding-left: 50vh;
     padding-right: 50vh;
+}
+
+footer a {
+    color: hotpink;
 }
