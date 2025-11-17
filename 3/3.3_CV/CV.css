@@ -30,6 +30,17 @@ footer {
     margin: 0 auto;
 }
 
+nav ol li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav ol {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
 header {
     padding: 2em;
     text-align: center;
@@ -162,9 +173,7 @@ footer {
     text-decoration: underline;
 }
 
-.skills {
-
-}
+.skills {}
 
 nav li:before {
     content: none;
@@ -178,4 +187,24 @@ nav ol {
 
 nav ol li {
     padding: 10px;
+}
+
+.fab {
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 2.5em;
+    height: 0px;
+    line-height: 1.5em;
+    margin: 5px;
+    text-align: center;
+}
+
+a .fab {
+    color: rgb(52, 91, 109);
+}
+
+body section {
+    padding-left: 200px;
+    padding-right: 200px;
 }
