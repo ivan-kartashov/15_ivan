@@ -173,8 +173,6 @@ footer {
     text-decoration: underline;
 }
 
-.skills {}
-
 nav li:before {
     content: none;
 }
