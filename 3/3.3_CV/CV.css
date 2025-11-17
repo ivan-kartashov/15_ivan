@@ -205,6 +205,6 @@ a .fab {
 }
 
 body section {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 50vh;
+    padding-right: 50vh;
 }
