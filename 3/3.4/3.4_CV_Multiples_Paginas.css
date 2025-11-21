@@ -42,7 +42,7 @@ nav ol {
 }
 
 header {
-    padding: 2em;
+    padding: 1em;
     text-align: center;
     background-image: url('../../Assets/bg.jpeg');
     background-size: cover;
@@ -63,6 +63,8 @@ header img {
 h1 {
     text-transform: uppercase;
     margin: 1em 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 h3 {
@@ -236,7 +238,7 @@ footer a {
 
 main {
     justify-items: center;
-    margin-bottom: 11vh;
+    margin-bottom: 13.5vh;
 }
 
 .fab {
@@ -250,4 +252,17 @@ main {
 
 a .fab {
     color: rgb(52, 91, 109);
+}
+
+nav {
+    margin-top: 5px;
+}
+
+#enlaces {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header p {
+    margin-bottom: 0px;
 }
