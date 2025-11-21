@@ -57,7 +57,7 @@ header section {
 
 header img {
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 125px;
 }
 
 h1 {
@@ -265,4 +265,17 @@ nav {
 
 header p {
     margin-bottom: 0px;
+}
+
+main {
+    min-height: 25.6vh;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+header {
+    padding: 1px;
+    padding-top: 20px;
 }
