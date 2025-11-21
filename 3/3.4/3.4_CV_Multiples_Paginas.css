@@ -127,7 +127,7 @@ ul.job-description li:before {
 
 footer {
     padding: 1em 1.5em;
-    background: #347c9b;
+    background-color: #347c9b;
     color: white;
     text-align: right;
 }
@@ -213,6 +213,10 @@ footer a {
 
 .link_contact {
     color: black;
+}
+
+.funcionales {
+    color: blue;
 }
 
 .link_contact:hover {
