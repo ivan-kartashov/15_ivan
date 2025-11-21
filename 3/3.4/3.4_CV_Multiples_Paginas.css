@@ -181,7 +181,7 @@ nav ol li {
     font-weight: bolder;
     text-transform: uppercase;
     height: 40px;
-    
+
 }
 
 nav ol li:hover {
@@ -251,4 +251,3 @@ main {
 a .fab {
     color: rgb(52, 91, 109);
 }
-
