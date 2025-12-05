@@ -14,3 +14,6 @@ console.log('Es viernes y queremos irnos:' + esViernes);
 if(esViernes == true) {
     console.log('Pues sí que es viernes, nos quedan 45 minutos');
 }
+var nombreUsuario = prompt('Introduzca su nombre')
+console.log('El nombre del usuario es: ' + nombreUsuario)
+document.write("<h1>" + nombreUsuario + "</h1>");
