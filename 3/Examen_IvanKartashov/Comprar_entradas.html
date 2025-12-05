@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Comprar Entradas - Ivan Kartahsov</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/logo.jpg" id="iniciodeinicio">
+        </div>
+        <h1>El zoo</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li class="active"><a href="">Comprar entradas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Comprar entradas</h1>
+        <fieldset>
+            <legend>Entradas</legend>
+            <form action="mailto:sonia.curielfidalgo@educa.madrid.org" method="post">
+                <section>
+                    <caption>General</caption>
+                    <input type="number" placeholder="1..." name="gentick">
+                </section>
+                <section>
+                    <caption>Reducida</caption>
+                    <input type="number" placeholder="1..." name="redtick">
+                </section>
+                <section>
+                    <caption>Actividad</caption>
+                    <select name="activity" id="activity">
+                        <option value="Delf">Delfines</option>
+                        <option value="Avrap">Aves rapaces</option>
+                        <option value="Marlion">Leones marinos</option>
+                    </select>
+                </section>
+                <section>
+                    <caption>Observaciones:</caption>
+                    <input type="text" placeholder="Introduce observaciones...." name="observations">
+                </section>
+
+
+
+
+                <input type="submit" value="Enviar">
+                <button type="reset">Limpiar</button>
+            </form>
+        </fieldset>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
