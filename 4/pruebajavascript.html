@@ -8,12 +8,38 @@
         body {
             padding: 15px;
         }
+
+        #mensajes {
+            min-height: 100px;
+            width: 150px;
+            background-color: pink;
+        }
     </style>
 </head>
 
 <body>
     <!-- Comentario en HTML -->
     <h1>prueba</h1>
+    <form method="post">
+        <label >Nombre</label>
+        <input id="nombre" type="text" name="nombre" />
+        <br>
+        <label>Contraseña</label>
+        <input type="password" id="pass1" name="pass"/>
+        <br>
+        <label>Repita la contraseña</label>
+        <input type="password" id="pass2" name="pass2"/>    
+    <!--<input type="submit" onclick="enviaFormulario()" value="Enviar" /> !-->
+    </form>
+
+    <button  onclick="enviaFormulario()">Enviar</button>
+    
+    <div id="mensajes" onmouseenter="cambiaColor('yellow')" onmouseleave="cambiaColor('pink')">
+        
+    </div>
+    
+
+
 </body>
 
 </html>
