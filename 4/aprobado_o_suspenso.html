@@ -6,10 +6,6 @@
                 height: 150px;
                 width: 150px;
             }
-
-            #resultado {
-                background-color: aqua;
-            }
         </style>
         <script>
             function calcularNotaFinal() {
@@ -23,13 +19,13 @@
                 if(notaFinal >= 5){
                     //TODO: recuperar por id el elemento resultado, y asignar a su propiedad innerHTML el texto "APROBADO :)"
                     //TODO: recuperar por id el elemento resultado y asignar a su propiedad style.backgroundColor el color "green"
-                    div.innerHTML = "Aprobado";
-                    div.style.backgroundColor = "green";
+                    divResultado.innerHTML = "Aprobado :)";
+                    divResultado.style.backgroundColor = "green";
                 } else{
                     //TODO: recuperar por id el elemento resultado, y asignar a su propiedad innerHTML el texto "VUELVE A INTENTARLO :("
                     //TODO: recuperar por id el elemento resultado y asignar a su propiedad style.backgroundColor el color "red"
-                    div.innerHTML = "VUELVE A INTENTARLO :()";
-                    div.style.backgroundColor = "red";
+                    divResultado.innerHTML = "VUELVE A INTENTARLO :()";
+                    divResultado.style.backgroundColor = "red";
                 }
             }
         </script>
