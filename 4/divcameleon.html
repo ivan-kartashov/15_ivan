@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #divcam{
+                height: 150px;
+                width: 500px;
+                color: white;
+                background-color: rgb(88, 22, 22);
+            }
+        </style>
+        <script>
+        function cambiarColor(){
+            var div = document.getElementById("divcam");
+            var divcolor = div.style.backgroundColor;
+            if (divcolor == "black"){
+                div.style.backgroundColor = "pink";
+            } else if (divcolor == "pink"){
+                div.style.backgroundColor = "blue";
+            } else {
+                div.style.backgroundColor = "black";
+            }
+        }
+
+        function adios() {
+            document.getElementById("divcam").innerHTML += "¡Adios!"
+        }
+
+        function hola() {
+            document.getElementById("divcam").innerHTML += "¡Hola!"
+        }
+        </script>
+    </head>
+    <body>
+        <div id="divcam">
+        </div>
+        <button onclick="cambiarColor()" onmouseenter="hola()" onmouseleave="adios()">Cambiar de color</button>
+    </body>
+</html>
